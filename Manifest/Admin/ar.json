@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "مسؤول الردود السريعة",
+  "name.full": "الردود السريعة المسؤول بوت",
+  "description.short": "بوت مسؤول الاستجابة السريعة لمساعدتك في إدارة الردود المرسلة من المستخدم.",
+  "description.full": "أرسل المستخدم المُدار ردود الشركة وعدل نص فئة الاستجابة السريعة والتسمية والاستجابة قبل الإرسال النهائي.",
+  "bots[0].commandLists[0].commands[0].title": "خذ جولة",
+  "bots[0].commandLists[0].commands[0].description": "خذ جولة"
+}

@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "クイックレスポンス",
+  "name.full": "クイックレスポンスボット",
+  "description.short": "メッセージング拡張機能を使用してクイックレスポンスを設定して送信します。",
+  "description.full": "クイックレスポンスを管理し、メッセージング拡張機能からチーム内またはパーソナルチャットで共有します。",
+  "bots[0].commandLists[0].commands[0].title": "ツアーに参加します",
+  "bots[0].commandLists[0].commands[0].description": "ツアーに参加します",
+  "composeExtensions[0].commands[0].title": "あなたの応答",
+  "composeExtensions[0].commands[0].description": "迅速な対応を共有する",
+  "composeExtensions[0].commands[0].parameters[0].description": "キーワードまたはカテゴリを入力してください",
+  "composeExtensions[0].commands[1].title": "会社の対応",
+  "composeExtensions[0].commands[1].description": "会社の迅速な対応を共有する",
+  "composeExtensions[0].commands[1].parameters[0].description": "キーワードまたはカテゴリを入力してください",
+  "composeExtensions[0].commands[2].title": "あなたの応答",
+  "composeExtensions[0].commands[2].description": "迅速な対応を管理する",
+  "composeExtensions[0].commands[2].parameters[0].description": "迅速な対応を管理する",
+  "composeExtensions[0].commands[3].title": "会社の対応",
+  "composeExtensions[0].commands[3].description": "新しい会社の対応を提案する",
+  "composeExtensions[0].commands[3].parameters[0].description": "新しい会社の対応を提案する"
+}

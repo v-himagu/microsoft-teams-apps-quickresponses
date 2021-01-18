@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "Réponses rapides",
+  "name.full": "Bot de réponses rapides",
+  "description.short": "Configurez et envoyez des réponses rapides à",
+  "description.full": "Gérez vos réponses rapides et partagez au sein d'une équipe ou dans le chat personnel depuis l'extension de messagerie.",
+  "bots[0].commandLists[0].commands[0].title": "Faire un tour",
+  "bots[0].commandLists[0].commands[0].description": "Faire un tour",
+  "composeExtensions[0].commands[0].title": "Vos réponses",
+  "composeExtensions[0].commands[0].description": "Partagez vos réponses rapides",
+  "composeExtensions[0].commands[3].parameters[0].description": "Suggérer de nouvelles réponses d'entreprise",
+  "composeExtensions[0].commands[1].title": "Réponses de l'entreprise",
+  "composeExtensions[0].commands[1].description": "Partager les réponses rapides de l'entreprise",
+  "composeExtensions[0].commands[1].parameters[0].description": "Entrez un mot-clé ou une catégorie",
+  "composeExtensions[0].commands[2].title": "Vos réponses",
+  "composeExtensions[0].commands[2].description": "Gérez vos réponses rapides",
+  "composeExtensions[0].commands[2].parameters[0].description": "Gérez vos réponses rapides",
+  "composeExtensions[0].commands[3].title": "Réponses de l'entreprise",
+  "composeExtensions[0].commands[3].description": "Suggérer de nouvelles réponses d'entreprise",
+  "composeExtensions[0].commands[0].parameters[0].description": "Entrez un mot-clé ou une catégorie"
+}

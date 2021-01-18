@@ -1,0 +1,9 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "クイックレスポンス管理者",
+  "name.full": "クイックレスポンス管理ボット",
+  "description.short": "ユーザーが送信した応答の管理を支援するクイック応答管理ボット。",
+  "description.full": "管理対象ユーザーは会社の回答を送信し、最終的な送信の前にクイック回答のカテゴリ、ラベル、および回答のテキストを変更します。",
+  "bots[0].commandLists[0].commands[0].title": "ツアーに参加します",
+  "bots[0].commandLists[0].commands[0].description": "ツアーに参加します"
+}

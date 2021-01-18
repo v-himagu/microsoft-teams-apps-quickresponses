@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "ردود سريعة",
+  "name.full": "الردود السريعة بوت",
+  "description.short": "قم بإعداد وإرسال ردود سريعة باستخدام ملحق الرسائل.",
+  "description.full": "قم بإدارة ردودك السريعة ومشاركتها داخل فريق أو في الدردشة الشخصية من امتداد المراسلة.",
+  "bots[0].commandLists[0].commands[0].title": "خذ جولة",
+  "bots[0].commandLists[0].commands[0].description": "خذ جولة",
+  "composeExtensions[0].commands[0].title": "ردودكم",
+  "composeExtensions[0].commands[0].description": "شارك ردودك السريعة",
+  "composeExtensions[0].commands[0].parameters[0].description": "أدخل كلمة أساسية أو فئة",
+  "composeExtensions[0].commands[1].title": "ردود الشركة",
+  "composeExtensions[0].commands[1].description": "شارك ردود الشركة السريعة",
+  "composeExtensions[0].commands[1].parameters[0].description": "أدخل كلمة أساسية أو فئة",
+  "composeExtensions[0].commands[2].title": "ردودكم",
+  "composeExtensions[0].commands[2].description": "إدارة ردودك السريعة",
+  "composeExtensions[0].commands[2].parameters[0].description": "إدارة ردودك السريعة",
+  "composeExtensions[0].commands[3].title": "ردود الشركة",
+  "composeExtensions[0].commands[3].description": "اقترح استجابات جديدة للشركة",
+  "composeExtensions[0].commands[3].parameters[0].description": "اقترح استجابات جديدة للشركة"
+}
