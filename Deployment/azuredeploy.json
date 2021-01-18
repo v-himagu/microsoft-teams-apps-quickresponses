@@ -74,10 +74,13 @@
 	"defaultCulture": {
       "type": "string",
       "allowedValues": [
-        "en-US",
-		"fr-Fr"
+        "en",
+        "fr",
+        "es",
+        "ja",
+        "ar"
       ],
-      "defaultValue": "en-US",
+      "defaultValue": "en",
       "metadata": {
         "description": "Default localization for app."
       }
@@ -234,35 +237,35 @@
               "name": "App:TenantId",
               "value": "[parameters('tenantId')]"
             },
-			{
+            {
               "name": "Teams:TeamIdDeepLink",
               "value": "[parameters('teamIdDeepLink')]"
             },
-			{
+            {
               "name": "Logging:LogLevel:Default",
               "value": "Information"
             },
-			{
+            {
               "name": "i18n:DefaultCulture",
               "value": "[parameters('defaultCulture')]"
             },
-			{
+            {
               "name": "i18n:SupportedCultures",
-              "value": "en-US,fr-Fr"
+              "value": "en,fr,es,ja,ar"
             },
             {
               "name": "ApplicationInsights:InstrumentationKey",
               "value": "[reference(resourceId('Microsoft.Insights/components/', variables('botAppInsightsName')), '2015-05-01').InstrumentationKey]"
             },
-			{
+            {
               "name": "ApplicationInsights:InstrumentationKey:LogLevel:Default",
               "value": "Information"
             },
-			{
+            {
               "name": "ApplicationInsights:InstrumentationKey:LogLevel:Microsoft",
               "value": "Information"
             },
-			{
+            {
               "name": "SearchService:SearchServiceName",
               "value": "[variables('azureSearchName')]"
             },
@@ -274,7 +277,7 @@
               "name": "SearchService:SearchServiceQueryApiKey",
               "value": "[listQueryKeys(resourceId('Microsoft.Search/searchServices/', variables('azureSearchName')), '2015-08-19').value[0].key]"
             },
-			{
+            {
               "name": "SearchService:SearchIndexingIntervalInMinutes",
               "value": "10"
             },
@@ -282,11 +285,11 @@
               "name": "App:SecurityKey",
               "value": "[parameters('tokenEncryptionKey')]"
             },
-			{
+            {
               "name": "UppercaseResponse",
               "value": false
             },
-			{
+            {
               "name": "AllowedHosts",
               "value": "*"
             },
